@@ -9,3 +9,6 @@ p{
     font-size: 14px;
     line-height: 1.5;
 }
+p {color: seagreen;}
+.note {color: orangered;}
+#intro {color: rgb(183, 63, 183);}
