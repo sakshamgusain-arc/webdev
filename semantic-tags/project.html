@@ -1,25 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head >
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Collage </title>
     <link rel="stylesheet" href="style.css">
-      <style>
-        p{
-            color: blue;
+    <style>
+        p {
+            color: rgb(112, 112, 206);
             font-size: 16px;
             border: 1px solid black;
         }
-        .box{
+
+        .box {
             width: 200px;
             height: 100px;
             box-sizing: border-box;
             border: 10px solid rgb(89, 170, 105);
-            
+
         }
-      </style>
+
+        div p {
+            color: brown;
+        }
+        .css-unit{
+            font-size: 2em;
+            background-color: hotpink;
+        }
+        html     { font-size: 16px; }  
+.parent  { font-size: 20px; }
+
+.em-text  { font-size: 2em; }   
+.rem-text { font-size: 2rem; } 
+
+    </style>
 </head>
+
 <body>
     <header>
         <h1 class="box"> My Collage</h1>
@@ -29,56 +46,81 @@
         <a href="#about">About</a>
         <a href="#courses">Courses</a>
         <a href="#location">Location</a>
-        </nav>
-         <video width="320" height="240" controls>
-         <source src="sample-5s (online-video-cutter.com).mp4" type="video/mp4">
-	  Your browser does not support the video tag.
-      </video>
-        <hr>
-        <section id="about">
-            <h2>About my Collage</h2>
+    </nav>
+    <video width="320" height="240" controls>
+        <source src="sample-5s (online-video-cutter.com).mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <hr>
+    <section id="about">
+        <h2>About my Collage</h2>
 
-            <article>
-                <h3>Our Collage</h3>
-                <p id="intro" class="note">
-                    My collage provides................  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem adipisci libero nisi corrupti provident fugit, enim ipsam, delectus quibusdam hic a soluta quam ut omnis voluptate rem error magnam nulla!
-                </p>
-            </article>
-            <article >
-                <h3>Courses</h3>
-                <p id="intro">
-                    we offer courses in engineering,business,technology and other fields.
-                </p>
-            </article>
-        </section>
-        <aside>
-            <h3>Collage Highlights</h3>
-            <ul>
-                <li>Modern labs</li>
-                <li>Experienced Faculty</li>
-                <li>Library</li>
-                <li>Sports Facilities</li>
-            </ul>
-        </aside>
-        <section>
-            <h3>Collage Video</h3>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/YfOUAqhYS9g?si=DVK7Y-k_O1iU0lkj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </section><br><br><hr>
-        <p><b>Small speech by our chairman</b></p>
-        <audio controls>
-  <source src="sample-6s.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio><hr>
-        <section>
-            <h3>Collage Location</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.5446173611713!2d77.49133137585689!3d28.67335087564249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf2c4cac27f99%3A0xd9961659aee6d5b2!2sHi-Tech%20Institute%20of%20Engineering%20%26%20Technology!5e0!3m2!1sen!2sin!4v1791197807790!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-        </section>
+        <article>
+            <h3>Our Collage</h3>
+            <p id="intro" class="note">
+                My collage provides................ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem
+                adipisci libero nisi corrupti provident fugit, enim ipsam, delectus quibusdam hic a soluta quam ut omnis
+                voluptate rem error magnam nulla!
+            </p>
+        </article>
+        <article>
+            <h3>Courses</h3>
+            <p id="intro">
+                we offer courses in engineering,business,technology and other fields.
+            </p>
+        </article>
+    </section>
+    <aside>
+        <h3>Collage Highlights</h3>
+        <ul>
+            <li>Modern labs</li>
+            <li>Experienced Faculty</li>
+            <li>Library</li>
+            <li>Sports Facilities</li>
+        </ul>
+    </aside>
+    <section>
+        <h3>Collage Video</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YfOUAqhYS9g?si=DVK7Y-k_O1iU0lkj"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section><br><br>
+    <hr>
+    <p><b>Small speech by our chairman</b></p>
+    <audio controls>
+        <source src="sample-6s.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <hr>
+    <section>
+        <h3 class="css-unit">Collage Location</h3>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.5446173611713!2d77.49133137585689!3d28.67335087564249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf2c4cac27f99%3A0xd9961659aee6d5b2!2sHi-Tech%20Institute%20of%20Engineering%20%26%20Technology!5e0!3m2!1sen!2sin!4v1791197807790!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </section>
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui error voluptatem adipisci dignissimos dolores
+            doloribus id amet. Repellat ratione voluptatem in dolor culpa nemo debitis maxime aperiam, deserunt incidunt
+            nesciunt?</p>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quidem nostrum laboriosam optio facere
+            culpa cum facilis perferendis, dolores architecto.</div>
+    </div>
+
 
     <footer style="color: rgb(53, 53, 57);font-size: 16px;">
         <hr>
         <p style="color: rgb(91, 91, 190);font-size: 16px;">&copy; 2026 My College. All rights reserved.</p>
     </footer>
+    <div>
+        <p class="em-text">i use em</p>
+        <p class="rem-text">i use rem</p>
+      
+    </div>
 
-    
+
+
 </body>
+
 </html>
