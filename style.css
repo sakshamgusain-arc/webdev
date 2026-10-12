@@ -1,0 +1,16 @@
+.text-heading{
+
+    text-decoration: underline;
+    text-align: center;
+    text-transform: capitalize;
+    line-height : 1.5 ;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-shadow: 4px 4px 4px gray;
+    font-style: italic;
+    
+}
+.box{
+    
+    border: 1px solid black;
+}
