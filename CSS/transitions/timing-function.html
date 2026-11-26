@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div
+        {
+            width: 400px;
+            height: 400px;
+            background-color:yellowgreen;
+
+            transition: width 2s, height 2s, background-color 2s,rotate 2s,translate 2s;
+            transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+            transition-delay: 1s;
+            border-radius: 100%;
+            text-align: center;
+            
+            
+             
+
+        }
+        div:hover
+        {
+            width: 400px;
+            height: 400px;
+            background-color:darkgreen; 
+            rotate: 360deg;
+            translate: 800px ;
+        
+        }
+    </style>
+</head>
+<body>
+     <div>box1</div>
+     
+</body>
+</html>
