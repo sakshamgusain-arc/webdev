@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        .box{
+            border: 2px solid black;
+            background-color: burlywood;
+            padding: 10px;
+
+             
+        }
+            
+        
+        .grid-container{
+            display: grid;
+            gap: 10px;
+            justify-content: center;
+
+        }
+        .card{
+            border: 2px solid blue;
+            padding: 10px;
+            background-color: aqua;
+            width: 500px;
+            height: 400px;
+            object-fit: cover;
+            
+            
+        }
+        .card-1{
+               
+        background-image: url("img-1.jpeg");
+        background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+         
+        }
+         .card-2{
+            
+         background-image: url("img-2.jpeg");
+         background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+
+        }
+         .card-3{
+            background-image: url(img-3.jpeg);
+            
+    background-image: url("img-3.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+        }
+         .card-4{
+            background-image: url(img-4.jpeg);
+            background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+
+        }
+         .card-5{
+            background-image: url(img-7.jpeg);
+            background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+
+        }
+         .card-6{
+            background-image: url(img-8.jpeg);
+            background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+
+        }
+         .card-7{
+            background-image: url(img-9.jpeg);
+            background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+
+        }
+         .card-8{
+            background-image: url(img-10.jpeg);
+            background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+
+         }
+        .card-9{
+            background-image: url(img-6.jpeg);
+            background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+
+        }
+        @media (min-width:600px){
+         .grid-container{
+                grid-template-columns: repeat(2,1fr);
+                grid-template-rows: repeat(5,1fr);
+
+            }
+            .card{
+                height: 100px;
+                width: 200px;
+                justify-content: space-evenly;
+            }
+        }
+    
+        @media (min-width:768px){
+            .grid-container{
+                grid-template-columns: repeat(3,1fr);
+                grid-template-rows: repeat(3,1fr);
+
+            }
+            .card{
+                height: 100px;
+                width: 200px;
+                justify-content: space-evenly;
+            }
+        }
+     </style>
+</head>
+<body>
+    <div class="box">
+    <div class="grid-container">
+        <div class="card card-1"></div>
+        <div class="card card-2"></div>
+        <div class="card card-3"></div>
+        <div class="card card-4"></div>
+        <div class="card card-5"></div>
+        <div class="card card-6"></div>
+        <div class="card card-7"></div>
+        <div class="card card-8"></div>
+        <div class="card card-9"></div>
+    </div>
+    </div>
+</body>
+</html>
